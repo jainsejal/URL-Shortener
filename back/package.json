@@ -1,0 +1,32 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel index.js --out-file index-compiled.js",
+    "dev": "nodemon --exec babel-node index.js",
+    "standard":"standard --fix && standard"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^2.6.9",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.0",
+    "standard": "^14.3.4"
+  }
+}
