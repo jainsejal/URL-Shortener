@@ -12,7 +12,8 @@ Then type npm start in the terminal.**
 
 ## The back-end of URL shortner consists of majorly two sections: Reduction function and creating database for saving the hash for the same.
 
-So, reduction function and further separated into Hash and unhash function. So hash function takes if as argument and returns alphanumeric  
+So, reduction function and further separated into Hash and unhash function.  
+So hash function takes if as argument and returns alphanumeric  
 hash whereas unhash function takes hash and returns id.   
         * for example, hash(1)= c9c9a,   
                      * unhash(c9c9a)= 1.  
