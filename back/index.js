@@ -23,4 +23,4 @@ app.get('/api/v1/hash', ReductionController.hash)
 app.get('/api/v1/unHash', ReductionController.unHash)
 app.get('/api/v1/urls', ReductionController.getURLs)
 
-app.listen(process.env.PORT || 3000, () => {})
+app.listen(process.env.PORT || 5000, () => {})
