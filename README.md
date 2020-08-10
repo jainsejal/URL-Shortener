@@ -5,8 +5,8 @@ One of the main file index.js has App.js as sub components.
 
 And App.js has many other sub components that are listed in /component folder.
 
-Run this code in two seperate terminals: one for back and other for front.
-**Type npm i to install the dependencies in front folder.
+Run this code in two seperate terminals: one for back and other for front.  
+**Type npm i to install the dependencies in front folder.  
 Then type npm start in the terminal.**
 
 
