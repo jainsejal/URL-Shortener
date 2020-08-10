@@ -15,7 +15,7 @@ Then type npm start in the terminal.**
 So, reduction function and further separated into Hash and unhash function.  
 So hash function takes if as argument and returns alphanumeric  
 hash whereas unhash function takes hash and returns id.   
-        * for example, hash(1)= c9c9a,   
+                     * for example, hash(1)= c9c9a,   
                      * unhash(c9c9a)= 1.  
                    
 And for creating and saving ids and hash to database I use sqlite. So it gets the URL from the user and then check the URL in the database if it  
