@@ -1,10 +1,10 @@
 # URL-Shortner Project
 
 ## The front-end of the project is created using create-react-app. 
-One of the main file index.js has App.js as sub components. 
+One of the main file index.js has App.js as sub components.    
 And App.js has many other sub components that are listed in /component folder.
 
-Run this code in two seperate terminals: one for back and other for front. 
+Run this code in two seperate terminals: one for back and other for front.   
 **Type npm i to install the dependencies in front folder.
 Then type npm start in the terminal.**
 
